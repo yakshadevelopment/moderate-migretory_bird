@@ -1,0 +1,4 @@
+
+testCountTotalBirds=false
+testCountTotalBirds=true
+testCountTotalBirds=true
