@@ -15,4 +15,16 @@ public void testCountTotalBirds() throws Exception{
 	
 	}
 	
+	@Test
+    public void testExceptionConditon() throws Exception{
+	 yakshaAssert(currentTest(),true,boundaryTestFile);
+      }
+
+	@Test
+	public void testBoundaryCondition() throws Exception {
+	  yakshaAssert(currentTest(),true,exceptionTestFile);
+   }
+
+
+	
 }
